@@ -9,7 +9,7 @@ while True:
     MySentence_Splited = MySentence.split(",")
     print("Words after Spliting : ", MySentence_Splited)
     print("Words after Split + Removing Duplicated values: " ,set(MySentence_Splited) )
-
+    print("after sort by alphabet: ",sorted(MySentence_Splited))
     print("\n___________________________Farshad NematPour ___________________________\n\n")
     keyboard.wait('q')
     keyboard.send('ctrl+6')
